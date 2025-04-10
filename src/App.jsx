@@ -8,7 +8,7 @@ import Topbar from './components/Topbar';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen">
+      <div className="min-h-screen w-screen">
         {/* Navbar Component */}
         <Topbar />
 
