@@ -1,1 +1,15 @@
 @import "tailwindcss";
+
+
+    :root {
+      --color-primary: #E66B27;
+      --color-secondary: #23D4FD;
+      --color-accent: #1B1B1B;
+      --font-sans: 'Inter', sans-serif;
+    }
+
+    body, html {
+      font-family: 'Azeret Mono', monospace;
+      background-color: black;
+      color: white;
+    }
