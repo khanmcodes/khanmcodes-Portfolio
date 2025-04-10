@@ -1,12 +1,25 @@
 export default {
   theme: {
+    fontFamily: {
+      sans: ['Azeret Mono', 'monospace'],
+      'inter': ['Inter', 'sans-serif']
+    },
     extend: {
       colors: {
         testcolor: "var(--color-accent)", 
       },
-      fontFamily: {
-        sans: ['Azeret Mono', 'monospace'], 
-        'inter': ['Inter', 'sans-serif']   
+      animation: {
+        'spin-slow': 'spin 20s linear infinite',
+      },
+      keyframes: {
+        spin: {
+          from: {
+            transform: 'rotate(0deg)'
+          },
+          to: {
+            transform: 'rotate(360deg)'
+          }
+        }
       },
     },
   },
