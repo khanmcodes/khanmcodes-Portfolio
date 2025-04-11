@@ -1,3 +1,4 @@
+import KeyboardSkills from "../components/KeyboardSkills";
 import "../index.css";
 import { FaCaretDown } from "react-icons/fa";
 
@@ -59,6 +60,10 @@ export default function Home() {
           <div className="col-span-1 xl:min-h-65 xl:max-h-65 sm:min-h-35 sm:max-h-35 2xl:min-h-75 2xl:max-h-75 min-h-40 max-h-40  bg-neutral-900 rounded-lg"></div>
         </div>
       </div>
+
+      {/* Keyboard Skills */}
+      <KeyboardSkills/>
+
     </div>
   );
 }
