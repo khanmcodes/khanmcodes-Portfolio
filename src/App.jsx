@@ -9,12 +9,12 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen w-screen">
+      <div className="min-h-screen w-[100vw] overflow-x-hidden flex flex-col items-center">
         {/* Navbar Component */}
         <Topbar />
 
         {/* Page Content */}
-        <main className="container mx-auto p-4">
+        <main className="mx-1 pt-4 w-[100vw] items-center">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/projects" element={<Projects />} />

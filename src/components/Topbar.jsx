@@ -2,8 +2,7 @@ import Logo from "./Logo";
 
 export default function Topbar() {
   return (
-    <div className="flex p-4 bg-black text-white items-center justify-center">
-      <div className="container flex items-center sm:justify-between">
+      <div className="container px-2 pt-4 sm:px-12 flex items-center max-w-screen sm:justify-between">
         <div className="text-xs font-normal hidden sm:flex">github.com/khanmcodes</div>
 
         <div>
@@ -12,6 +11,5 @@ export default function Topbar() {
 
         <div className="text-xs font-normal hidden sm:flex">khanmuhammad.work@gmail.com</div>
       </div>
-    </div>
   );
 }
