@@ -6,7 +6,9 @@ export default {
     },
     extend: {
       colors: {
-        testcolor: "var(--color-accent)", 
+        primary: 'blue',
+        secondary: 'var(--color-secondary)',
+        accent: 'var(--color-accent)',
       },
       animation: {
         'spin-slow': 'spin 20s linear infinite',
