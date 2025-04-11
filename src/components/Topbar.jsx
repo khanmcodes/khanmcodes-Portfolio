@@ -6,7 +6,7 @@ export default function Topbar() {
       <div className="container flex items-center sm:justify-between">
         <div className="text-xs font-normal hidden sm:flex">github.com/khanmcodes</div>
 
-        <div className="px-2">
+        <div>
           <Logo size={80} spinDuration={20} onHover="pause" />
         </div>
 
